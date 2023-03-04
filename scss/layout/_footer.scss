@@ -1,0 +1,87 @@
+.footer {
+    width: 100vw;
+    .footer__container--rounded {
+        background-color: $primary-violet;
+        width: 100%;
+        color: white;
+        padding: 5rem 1.25rem 6rem;
+        clip-path: ellipse(95% 100% at center top);
+        h3 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .footer__container__section--buttons {
+            .footer__container__section--button {
+                width: 100%;
+                text-align: center;
+                padding: 1.25rem 0;
+            }
+            .footer__container__section--button--sup {
+                width: 100%;
+                background-color: white;
+                margin-bottom: 1rem;
+                a {
+                    color: $light-violet;
+                    font-size: 14px;
+                    font-weight: 700;
+                    letter-spacing: .1rem;
+                }
+            }
+            .footer__container__section--button-inf {
+                width: 100%;
+                border: 1px solid white;
+                a {
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 700;
+                    letter-spacing: .1rem;
+                }
+            }
+        }
+    }
+    .container__links--sup {
+        border-bottom: .5px solid #ccc;
+    }
+    .container__footer--links {
+        margin-top: 2.5rem;
+        padding: 1rem;
+        .container__links {
+            margin-top: 2.5rem;
+            .item {
+                margin: 1.25rem 0;
+                font-weight: 500;
+            }
+            .item__link {
+                display: flex;
+                justify-content: space-between;
+            }
+            .item__link--globe {
+                display: flex;
+                p {
+                    margin: 0 .5rem;
+                }
+            }
+            .item__link--download {
+                display: flex;
+                color: $link-blue;
+                p {
+                    margin: 0 .5rem;
+                }
+            }
+        }
+        .container__social__icons {
+            width: 100%;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                margin: 1.5rem 0;
+            }
+        }
+        .llc {
+            font-size: 12px;
+            line-height: 1.1rem;
+            margin-bottom: 1rem;
+        }
+    }
+}

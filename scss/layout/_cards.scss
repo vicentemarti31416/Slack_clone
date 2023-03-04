@@ -1,0 +1,41 @@
+.cards {
+    width: 100vw;
+    background-color: #f4ede4;
+    padding: 3rem 1rem 1rem 1rem;
+    h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .container__card {
+        background-color: white;
+        width: 290px;
+        padding: 1rem;
+        margin: auto;
+        margin-bottom: 3rem;
+        img {
+            height: auto;
+            margin: auto;
+            margin-bottom: 1rem;
+        }
+        .container__card--funciones {
+            margin-bottom: .75rem;
+            font-size: small;
+        }
+        .container__card--vistazo {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 1.75rem;
+            padding-bottom: 3rem;
+        }
+        a {
+            font-weight: 700;
+            font-size: .85rem;
+            line-height: 1.25;
+            color: #1264a3;
+            i {
+                font-size: 1rem;
+            }
+        }
+    }
+}
